@@ -7,7 +7,7 @@ enum Shot {
 }
 
 impl Shot {
-    fn points(&self) -> i32 {
+    fn points(self) -> i32 {
         match self {
             Shot::Bullseye => {
                 return 5;
